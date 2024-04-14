@@ -82,13 +82,13 @@ const Home = () => {
 
             {/* Sectionn 3 */}
 
-            <div className='flex mt-52'>
+            <div className='flex mt-48'>
                 <div className='pl-36'>
                     <img src={man2} alt="Man2" className='w-100 h-72' />
                 </div>
-                <div className='pl-28 pt-20 space-y-4'>
+                <div className='pl-36 pt-20 space-y-4'>
 
-                    <h1 className='font-bold text-3xl'>Short And Informative Blogs</h1>
+                    <h1 className='font-semibold text-3xl font-custom-black'>Short And Informative Blogs</h1>
                     <p className='font-blackk font-poppins font-bold text-sm leading-7'>Discover stories, thinking, and expertise from <br /> writers on any topic.</p>
 
                     <div className='content-center'>
