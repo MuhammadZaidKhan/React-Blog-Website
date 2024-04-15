@@ -32,7 +32,7 @@ const Blogs = () => {
                     </div>
                 </div>
 
-                <div className='flex justify-center pt-16 pb-10 mr-20'>
+                <div className='flex justify-center pt-16 pb-8 mr-20'>
                     <button className="bg-purpell text-white px-12 py-2 ml-20 rounded-2xl font-poppins font-semibold">
                         See More
                     </button>
