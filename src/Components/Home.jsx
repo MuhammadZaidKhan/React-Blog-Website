@@ -4,7 +4,7 @@ import man2 from '../assets/man2.png';
 
 const Home = () => {
     return (
-        <div>
+        <div className='pb-10'>
             <div className="pt-36 pl-32 mx-auto flex items-center justify-center">
                 {/* Text Content */}
                 <div className="text-left mr-12">
