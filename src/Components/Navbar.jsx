@@ -18,16 +18,16 @@ export default function Header() {
                             alt=""
                         />
                     </Link>
-                    <div>
+                    {/* <div>
                         <div onClick={handleNav} className="md:hidden">
                             <AiOutlineMenu size="20" />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 {/* Mobile Nav */}
                 <div
                     className={`${nav
-                        ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70'
+                        ? 'md:hidden fixed left-0 top-0 w-full h-screen'
                         : ''
                         }`}
                 >

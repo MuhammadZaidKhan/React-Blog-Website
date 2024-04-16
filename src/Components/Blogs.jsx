@@ -42,7 +42,7 @@ const Blogs = () => {
 
 
             {/* Blogs */}
-            <div className="flex justify-center mt-20 mb-24">
+            <div className="flex justify-center mt-20 pb-24">
                 <div className="relative w-4/6 h-72 bg-purpell rounded-lg">
                     {/* Text Content */}
                     <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center text-white p-4 z-20">
@@ -65,60 +65,60 @@ const Blogs = () => {
 
             {/* Testimonials */}
 
-            <div>
-                <div className='bg-purpell min-h-screen'>
-                    <h1 className='flex justify-center text-white pt-16 font-semibold text-3xl font-poppins'>Testimonials</h1>
 
-                    <div className="flex justify-center pt-12 space-x-8">
-                        <div className="relative w-52 h-56 bg-white rounded-lg overflow-hidden">
-                            {/* Image */}
-                            <img
-                                src={man3}
-                                alt="Profile"
-                                className="absolute inset-0 w-full h-full object-cover"
-                            />
-                            {/* Text Container */}
-                            <div className="absolute pt-40 text-black pl-2">
-                                <h2 className="text-sm font-semibold">Mr. John</h2>
-                                <p className='text-xs font-normal pt-3'>Best Blog Website for Reading Blogs</p>
-                            </div>
-                        </div>
-                        <div className="relative w-52 h-56 bg-white rounded-lg overflow-hidden">
-                            {/* Image */}
-                            <img
-                                src={man4}
-                                alt="Profile"
-                                className="absolute inset-0 w-full h-full object-cover"
-                            />
-                            {/* Text Container */}
-                            <div className="absolute pt-40 text-black pl-2">
-                                <h2 className="text-sm font-semibold">Mr David</h2>
-                                <p className='text-xs font-normal pt-3'>Best Blog Website for Reading Blogs</p>
-                            </div>
-                        </div>
-                        <div className="relative w-52 h-56 bg-white rounded-lg overflow-hidden">
-                            {/* Image */}
-                            <img
-                                src={man5}
-                                alt="Profile"
-                                className="absolute inset-0 w-full h-full object-cover"
-                            />
-                            {/* Text Container */}
-                            <div className="absolute pt-40 text-black pl-2">
-                                <h2 className="text-sm font-semibold">Mr Salil</h2>
-                                <p className='text-xs font-normal pt-3'>Best Blog Website for Reading Blogs</p>
-                            </div>
-                        </div>
+            <div className='bg-purpell'>
+                <h1 className='flex justify-center text-white pt-16 font-semibold text-3xl font-poppins'>Testimonials</h1>
 
+                <div className="flex justify-center pt-12 space-x-8">
+                    <div className="relative w-52 h-56 bg-white rounded-lg overflow-hidden">
+                        {/* Image */}
+                        <img
+                            src={man3}
+                            alt="Profile"
+                            className="absolute inset-0 w-full h-full object-cover"
+                        />
+                        {/* Text Container */}
+                        <div className="absolute pt-40 text-black pl-2">
+                            <h2 className="text-sm font-semibold">Mr. John</h2>
+                            <p className='text-xs font-normal pt-3'>Best Blog Website for Reading Blogs</p>
+                        </div>
                     </div>
-                    <div className='flex justify-center pt-16 pb-10 mr-20'>
-                        <button className="bg-white text-purpell px-12 py-3 ml-20 rounded-xl font-poppins font-semibold">
-                            More News
-                        </button>
+                    <div className="relative w-52 h-56 bg-white rounded-lg overflow-hidden">
+                        {/* Image */}
+                        <img
+                            src={man4}
+                            alt="Profile"
+                            className="absolute inset-0 w-full h-full object-cover"
+                        />
+                        {/* Text Container */}
+                        <div className="absolute pt-40 text-black pl-2">
+                            <h2 className="text-sm font-semibold">Mr David</h2>
+                            <p className='text-xs font-normal pt-3'>Best Blog Website for Reading Blogs</p>
+                        </div>
+                    </div>
+                    <div className="relative w-52 h-56 bg-white rounded-lg overflow-hidden">
+                        {/* Image */}
+                        <img
+                            src={man5}
+                            alt="Profile"
+                            className="absolute inset-0 w-full h-full object-cover"
+                        />
+                        {/* Text Container */}
+                        <div className="absolute pt-40 text-black pl-2">
+                            <h2 className="text-sm font-semibold">Mr Salil</h2>
+                            <p className='text-xs font-normal pt-3'>Best Blog Website for Reading Blogs</p>
+                        </div>
                     </div>
 
                 </div>
+                <div className='flex justify-center pt-16 mr-20 pb-20'>
+                    <button className="bg-white text-purpell px-12 py-3 ml-20 rounded-xl font-poppins font-semibold">
+                        More News
+                    </button>
+                </div>
+
             </div>
+
 
         </div>
     )

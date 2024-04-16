@@ -77,7 +77,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <img src={line} alt="line" className='w-full pt-10 pb-5' />
+            <img src={line} alt="line" className='w-full pt-10 pb-2' />
 
             <div className='flex justify-between'>
                 <ul className='flex flex-row space-x-10 pl-20 pb-2'>
