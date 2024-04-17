@@ -4,7 +4,7 @@ import man2 from '../assets/man2.png';
 
 const Home = () => {
     return (
-        <div className='pb-10'>
+        <div className='pb-10 min-h-screen'>
             <div className="pt-12 md:pt-36 md:pl-32 flex items-center justify-center">
                 {/* Text Content */}
                 <div className="md:pl-0 pl-6">
@@ -82,23 +82,29 @@ const Home = () => {
 
             {/* Sectionn 3 */}
 
-            <div className='flex mt-48'>
-                <div className='pl-36'>
-                    <img src={man2} alt="Man2" className='w-100 h-72' />
-                </div>
-                <div className='pl-36 pt-20 space-y-4'>
+            <div className='md:flex md:mt-40 md:mb-20'>
+                <div className='flex flex-row md:flex md:space-x-0 space-x-5'>
+                    <div className='pt-28 pl-2 md:pt-0 md:pl-36'>
+                        <img
+                            src={man2}
+                            alt="Man2"
+                            className='md:w-100 md:h-72'
+                        />
+                    </div>
 
-                    <h1 className='font-semibold text-3xl font-custom-black'>Short And Informative Blogs</h1>
-                    <p className='font-blackk font-poppins font-bold text-sm leading-7'>Discover stories, thinking, and expertise from <br /> writers on any topic.</p>
+                    <div className='flex flex-col md:pl-36 pt-20 space-y-2 md:space-y-4'>
 
-                    <div className='content-center'>
-                        <button className="bg-purpell text-white px-8 py-2 ml-20 rounded-xl font-poppins font-semibold">
-                            Explore Projects
-                        </button>
+                        <h1 className='font-semibold text-2xl md:text-3xl font-custom-black'>Short And Informative Blogs</h1>
+                        <p className='font-blackk font-poppins w-40 md:w-96 font-bold text-sm leading-5 md:leading-7'>Discover stories, thinking, and expertise from <br /> writers on any topic.</p>
+
+                        <div className='content-center'>
+                            <button className="bg-purpell text-white text-xs md:text-sm px-3 py-2 md:px-8 md:py-3 md:ml-20 rounded-xl font-poppins font-semibold">
+                                Explore Projects
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
     );
 };

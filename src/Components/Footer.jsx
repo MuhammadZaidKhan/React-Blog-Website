@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div className='bg-blackk text-white'>
-            <div className='flex'>
-                <div className='pt-20 pl-16'>
+            <div className='flex md:flex-row flex-col'>
+                <div className='pt-20 md:pl-16 pl-8'>
                     <h1 className='font-Plus-Jakarta-Sans font-bold text-4xl'>Our application is beyond <br /> the wave</h1>
                     <p className='font-Montserrat pt-4 font-semibold text-sm text-footer-p'>Designed to make it easy for developers using a complex API <br />allows you to build innovative solutions </p>
 
@@ -17,7 +17,7 @@ const Footer = () => {
                         with us!</p>
                 </div>
 
-                <div className='space-x-10 flex pt-44 pl-12 cursor'>
+                <div className='md:space-x-10 gap-14 md:gap-0 grid grid-cols-3 lg:grid-cols-5 pt-44 md:pl-12 pl-8 cursor'>
                     <div>
                         <h4 className='text-white mt-4 font-Plus-Jakarta-Sans font-extrabold text-base'>Complyance.io</h4>
                         <ul className='mt-4 text-white text-xs font-Plus-Jakarta-Sans font-normal space-y-2'>
