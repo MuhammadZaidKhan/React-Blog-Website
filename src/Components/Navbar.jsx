@@ -10,7 +10,7 @@ export default function Header() {
     return (
         <>
             {/* Desktop Navbar */}
-            <div className="sticky top-0 w-full h-20 shadow-md z-[100] bg-white">
+            <div className="sticky top-0 w-full md:h-20 h-16 shadow-md z-[100] bg-white">
                 <div className="flex justify-between items-center w-full h-full px-4 2xl:px-16 py-10">
                     <Link to='/'>
                         <img
