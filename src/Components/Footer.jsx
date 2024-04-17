@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div className='bg-blackk text-white'>
-            <div className='flex md:flex-row flex-col'>
-                <div className='pt-20 md:pl-16 pl-8'>
+            <div className='flex flex-col md:flex-row'>
+                <div className='pt-20 md:pl-16 pl-5'>
                     <h1 className='font-Plus-Jakarta-Sans font-bold text-4xl'>Our application is beyond <br /> the wave</h1>
-                    <p className='font-Montserrat pt-4 font-semibold text-sm text-footer-p'>Designed to make it easy for developers using a complex API <br />allows you to build innovative solutions </p>
+                    <p className='font-Montserrat pt-4 font-semibold text-sm text-footer-p'>Designed to make it easy for developers using a complex API allows you to build innovative solutions </p>
 
                     <h2 className='font-Plus-Jakarta-Sans font-extrabold text-xl pt-10'>BLOG DEV</h2>
                     <p className='font-Plus-Jakarta-Sans font-bold text-xs pt-10'>Comply with Zatca's e-invoicing mandate for transparent <br />
@@ -17,7 +17,7 @@ const Footer = () => {
                         with us!</p>
                 </div>
 
-                <div className='md:space-x-10 gap-14 md:gap-0 grid grid-cols-3 lg:grid-cols-5 pt-44 md:pl-12 pl-8 cursor'>
+                <div className='md:space-x-7 gap-14 md:gap-0 grid grid-cols-3 lg:grid-cols-5 md:pt-44 pt-20 md:pl-12 pl-5 cursor'>
                     <div>
                         <h4 className='text-white mt-4 font-Plus-Jakarta-Sans font-extrabold text-base'>Complyance.io</h4>
                         <ul className='mt-4 text-white text-xs font-Plus-Jakarta-Sans font-normal space-y-2'>
@@ -79,14 +79,14 @@ const Footer = () => {
 
             <img src={line} alt="line" className='w-full pt-10 pb-2' />
 
-            <div className='flex justify-between'>
-                <ul className='flex flex-row space-x-10 pl-20 pb-2'>
+            <div className='flex md:justify-between'>
+                <ul className='flex flex-row space-x-5 md:space-x-10 pl-5 md:pl-20 md:pb-2 pb-3'>
                     <Link className='hover:text-purpell'>Privacy policy</Link>
                     <Link className='hover:text-purpell'>Terms and conditions</Link>
                     <Link className='hover:text-purpell'>Support</Link>
                 </ul>
 
-                <p className='pr-5'>Copyright 2023 @ compylance.io </p>
+                <p className='md:pr-5 ml-3 md:text-base text-xs'>Copyright 2023 @ compylance.io </p>
 
             </div>
 
