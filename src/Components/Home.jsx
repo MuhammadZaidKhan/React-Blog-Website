@@ -88,11 +88,11 @@ const Home = () => {
                         <img
                             src={man2}
                             alt="Man2"
-                            className='md:w-100 md:h-72'
+                            className='md:w-100 md:h-64'
                         />
                     </div>
 
-                    <div className='flex flex-col md:pl-36 pt-20 space-y-2 md:space-y-4'>
+                    <div className='flex flex-col md:pl-36 pt-16 space-y-2 md:space-y-4'>
 
                         <h1 className='font-semibold text-2xl md:text-3xl font-custom-black'>Short And Informative Blogs</h1>
                         <p className='font-blackk font-poppins w-40 md:w-96 font-bold text-sm leading-5 md:leading-7'>Discover stories, thinking, and expertise from <br /> writers on any topic.</p>
